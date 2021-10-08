@@ -71,8 +71,19 @@ contract LennyToken is ERC721, Ownable{
     //
     //Getters
     //
-    function getLenny() public view returns (Lenny[] memory){
+    function getLennys() public view returns (Lenny[] memory){
         return lennys;
     }
-    
+
+    function getOwnerLennys(address _owner) public view returns (Lenny[] memory){
+        Lenny[] memory result = new Lenny[](balanceOf(_owner));
+        uint256 counter = 0;
+        for (uint256 i = 0; i < lennys.length; i++) {
+            if (ownerOf(i) == _owner) {
+                result[counter] = lennys[i];
+                counter++;
+            }
+        }
+        return result;
+    }
 }
