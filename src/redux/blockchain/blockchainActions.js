@@ -34,13 +34,13 @@ export const connect = () => {
     dispatch(connectRequest());
     //Checks if Metamask isn't instanciated into the browser environment
     if (window.ethereum) {
-      //await window.ethereum.enable();
+      await window.ethereum.enable();
       let web3 = new Web3(window.ethereum);
       try {
         const accounts = await window.ethereum.request({
           method: "eth_accounts",
         });
-        console.log("Account ", accounts[0]);
+        console.log("Account ", accounts);
         const networkId = await window.ethereum.request({
           method: "net_version",
         });
