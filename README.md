@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# Getting Started with Lennymon NFT minting Dapp
+
+
+Run "npx create-react app lennymon"
+
+### Make sure you have node.js and yarn installed!
+
+```npm install --global yarn```
+
+Run the following lines to make sure yarn is equiped with the required libraries:
+```yarn add redux```
+```yarn add redux-thunk```
+```yarn add react-redux```
+```yarn add web3```
+```yarn add styled-components```
+```yarn add @openzeppelin/contracts```
+
+### Create a local blockchain environment
+
+```npm install -g ganache-cli```
+
+Execute ganache in powershell:
+```ganache-cli -d --allowUnlimitedContractSize```
+
+# Getting MetaMask setup
+
+![](https://github.com/AimenHallou/LennymonNFT/blob/master/metamask_network.png)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
