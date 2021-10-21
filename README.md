@@ -24,7 +24,7 @@ Execute ganache in powershell:
 
 # Getting MetaMask setup
 
-![](https://github.com/AimenHallou/LennymonNFT/blob/master/metamask_network.png)
+![](https://github.com/AimenHallou/LennymonNFT/blob/master/public/metamask_network.png)
 
 ### Import accounts to MetaMask with private keys
 
@@ -38,7 +38,9 @@ Execute ganache in powershell:
 
 
 
-
 # Common bugs
 
-Error with minting and gas fees charges:
+### Error with minting and gas fees charges
+
+Reset account in the advanced section on MetaMask
+![](https://github.com/AimenHallou/LennymonNFT/blob/master/public/resetAccount.png)
