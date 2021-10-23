@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LennymonNFT/static/css/main.8994005f.chunk.css",
-    "main.js": "/LennymonNFT/static/js/main.08665894.chunk.js",
-    "main.js.map": "/LennymonNFT/static/js/main.08665894.chunk.js.map",
+    "main.js": "/LennymonNFT/static/js/main.8f3edf5b.chunk.js",
+    "main.js.map": "/LennymonNFT/static/js/main.8f3edf5b.chunk.js.map",
     "runtime-main.js": "/LennymonNFT/static/js/runtime-main.72761e36.js",
     "runtime-main.js.map": "/LennymonNFT/static/js/runtime-main.72761e36.js.map",
     "static/js/2.f68753d5.chunk.js": "/LennymonNFT/static/js/2.f68753d5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.72761e36.js",
     "static/js/2.f68753d5.chunk.js",
     "static/css/main.8994005f.chunk.css",
-    "static/js/main.08665894.chunk.js"
+    "static/js/main.8f3edf5b.chunk.js"
   ]
 }
