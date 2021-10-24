@@ -15,7 +15,7 @@ function App() {
 
 
   const mintNFT = (_account, _name) => {
-    blockchain.lennyToken.methods.createRandomLenny(_name).send({from: _account, value: 1000000000000000000}).once("error", (err) =>{
+    blockchain.lennyToken.methods.createRandomLenny(_name).send({from: _account, value: 100000000000000}).once("error", (err) =>{
       console.log(err)
     }).then((receipt) => {
       console.log(receipt);
