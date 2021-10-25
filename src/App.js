@@ -35,8 +35,11 @@ function App() {
 
   return (
     <s.Screen >
+        <s.Container ai={"center"}>
+        <s.TextTitle>Make sure you're connected to the Kovan Test Network!</s.TextTitle>
+        </s.Container>
       {blockchain.account === "" || blockchain.lennyToken === null ?(
-      <s.Container flex={1} ai={"center"} jc={"center"}>
+        <s.Container flex={1} ai={"center"} jc={"center"}>
         <s.TextTitle>Connect to the game</s.TextTitle>
         <s.SpacerXSmall/>
         <button onClick={(e)=> {
