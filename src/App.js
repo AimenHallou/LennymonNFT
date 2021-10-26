@@ -35,18 +35,18 @@ function App() {
 
   return (
     <s.Screen >
-        <s.Container ai={"center"}>
-        <s.TextTitle>Make sure you're connected to the Kovan Test Network!</s.TextTitle>
-        </s.Container>
       {blockchain.account === "" || blockchain.lennyToken === null ?(
+        <><s.Container ai={"center"}>
+        <s.TextTitle>Make sure you're connected to the Kovan Test Network!</s.TextTitle>
+        </s.Container>        
         <s.Container flex={1} ai={"center"} jc={"center"}>
-        <s.TextTitle>Connect to the game</s.TextTitle>
-        <s.SpacerXSmall/>
-        <button onClick={(e)=> {
+          <s.TextTitle>Connect to the game</s.TextTitle>
+          <s.SpacerXSmall />
+          <button onClick={(e) => {
             e.preventDefault();
             dispatch(connect());
-        }}>Connect</button>
-      </s.Container>
+          } }>Connect</button>
+        </s.Container></>
       ):( <s.Container ai={"center"} style={{padding:"24px"}}>
         <s.TextTitle>Welcome to the game</s.TextTitle>
         <s.SpacerSmall/>
@@ -71,11 +71,10 @@ function App() {
           <s.SpacerSmall/>
           </>
           );
+          <text>word</text>
           })}
         </s.Container>
           
-
-
 
       </s.Container>
       )}
